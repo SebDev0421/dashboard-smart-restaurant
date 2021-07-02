@@ -1,0 +1,31 @@
+#container-welcome{
+    width: 100vw;
+    height: 100vh;
+    background: url('./Images/welcome_image.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container-welcome h1{
+    font-size: 50px;
+}
+
+#container-welcome #Button{
+    background-color: rgb(175, 12, 12);
+    color: white;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+#Button p{
+    font-weight: bold;
+    font-size: 20px;
+}
